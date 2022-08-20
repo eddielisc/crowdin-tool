@@ -1,23 +1,17 @@
 {
   "name": "crowdin-tool",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "echo 'no test yet'",
+    "dev": "vite",
     "eslint": "eslint --ext=cjs,js,mjs,ts,tsx",
     "lint:js": "eslint --max-warnings 0 .",
-    "prettier": "prettier"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "yarn test --watchAll=false"
-    }
+    "prepare": "husky install",
+    "prettier": "prettier",
+    "preview": "vite preview",
+    "test": "echo 'no test yet'"
   },
   "dependencies": {
     "@crowdin/ota-client": "^0.7.0",
@@ -27,8 +21,9 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "@spotify/eslint-config": "^14.1.0",
-    "@spotify/prettier-config": "^14.1.0",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/styled-components": "^5.1.26",
@@ -38,7 +33,9 @@
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
+    "sort-package-json": "^1.57.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.7"
   }
