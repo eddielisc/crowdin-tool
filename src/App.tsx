@@ -1,4 +1,3 @@
-import 'nes.css/css/nes.min.css'
 import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
 import OtaClient from '@crowdin/ota-client'
