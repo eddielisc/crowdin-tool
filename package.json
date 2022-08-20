@@ -14,28 +14,28 @@
     "test": "echo 'no test yet'"
   },
   "dependencies": {
-    "@crowdin/ota-client": "^0.7.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^5.3.5"
+    "@crowdin/ota-client": "0.7.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "5.3.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@spotify/eslint-config": "^14.1.0",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@types/styled-components": "^5.1.26",
-    "@vitejs/plugin-react": "^2.0.1",
-    "eslint": "^8.22.0",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
-    "eslint-plugin-react": "^7.30.1",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "sort-package-json": "^1.57.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.0.7"
+    "@commitlint/cli": "17.0.3",
+    "@commitlint/config-conventional": "17.0.3",
+    "@spotify/eslint-config": "14.1.0",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "5.1.26",
+    "@vitejs/plugin-react": "2.0.1",
+    "eslint": "8.22.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "prettier": "2.7.1",
+    "sort-package-json": "1.57.0",
+    "typescript": "4.7.4",
+    "vite": "3.0.9"
   }
 }
