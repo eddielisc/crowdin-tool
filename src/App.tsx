@@ -1,51 +1,52 @@
-import 'nes.css/css/nes.min.css';
-import { useCallback, useEffect, useState } from 'react';
+import 'nes.css/css/nes.min.css'
+import React, { useCallback, useState } from 'react'
 import styled from 'styled-components'
-import otaClient, { LanguageStrings, LanguageTranslations } from '@crowdin/ota-client';
-import { Input } from './components/Input';
-import { Button } from './components/Button';
-import { InputType } from './types/InputType';
+import OtaClient from '@crowdin/ota-client'
+import { Input } from './components/Input'
+import { Button } from './components/Button'
+import { InputType } from './types/InputType'
+
+const Main = styled.div`
+  margin: 10px;
+`
 
 function App() {
-  const [hash, setHash] = useState<string>("")
+  const [hash, setHash] = useState<string>('')
 
-  const [inputType, setInputType] = useState<InputType>("normal")
-
+  const [inputType, setInputType] = useState<InputType>('normal')
 
   const onSubmit = useCallback(async () => {
     try {
-      setInputType("wait")
+      setInputType('wait')
       if (!hash) {
-        setInputType("error")
+        setInputType('error')
         return
       }
-      const client = new otaClient(hash);
+      const client = new OtaClient(hash)
       const languages = await client.listLanguages()
-      setInputType("success")
+      setInputType('success')
     } catch (ex) {
-      setInputType("error")
+      setInputType('error')
     }
   }, [setInputType, hash])
-
 
   return (
     <Main className="App">
       <div className="nes-container with-title">
         <p className="title">Crowdin Tool</p>
         <p>A tool can preview crowdin content (TBD)</p>
-        <Input inputType={inputType} onChange={(e) => {
-          setHash(e.target.value)
-        }} placeholder={"Please input the crowdin hash here"} />
+        <Input
+          inputType={inputType}
+          onChange={(e) => {
+            setHash(e.target.value)
+          }}
+          placeholder="Please input the crowdin hash here"
+        />
 
         <Button onClick={() => onSubmit()} text="Start" />
-
       </div>
     </Main>
-  );
+  )
 }
 
-
-const Main = styled.div`
-  margin: 10px
-`
-export default App;
+export default App
