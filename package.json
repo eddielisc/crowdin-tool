@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@crowdin/ota-client": "0.7.0",
+    "flat": "^5.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "5.3.5"
@@ -23,6 +24,7 @@
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",
     "@spotify/eslint-config": "14.1.0",
+    "@types/flat": "^5.0.2",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "@types/styled-components": "5.1.26",
