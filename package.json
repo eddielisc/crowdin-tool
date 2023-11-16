@@ -23,7 +23,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.2.0",
     "@commitlint/config-conventional": "17.2.0",
-    "@spotify/eslint-config": "14.1.0",
+    "@spotify/eslint-config": "14.1.6",
     "@types/flat": "5.0.2",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
