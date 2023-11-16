@@ -647,35 +647,35 @@
   resolved "https://registry.yarnpkg.com/@spotify/eslint-config-typescript/-/eslint-config-typescript-13.0.1.tgz#47801a66d5569074a110f4422eba60aafc6bd7f8"
   integrity sha512-1wLQFyN2H2v+rn/mytA2PGzmGxOmdZdcKBpNyW+4z0qJydpvavp2SeBj/X+FEbwKoYBoUdG9QLr40eLQh1ZHZA==
 
-"@spotify/eslint-config@14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@spotify/eslint-config/-/eslint-config-14.1.0.tgz#5074da4dbeb48af733a6e31d204dec652bf12061"
-  integrity sha512-ZvPmiBeUsLljNFuUciAjKOLNQApVzI+3nBPGli5WrcLVOUihWlq0T4oW8VlqyRjebESplvI0Gj3BxA5Vr89Y7w==
+"@spotify/eslint-config@14.1.6":
+  version "14.1.6"
+  resolved "https://registry.yarnpkg.com/@spotify/eslint-config/-/eslint-config-14.1.6.tgz#20b22663bfb5ccab0edb137cf3e91369286a7b6b"
+  integrity sha512-aRULax5xGdfAfsEl3gd0sRLR7XUdYmLUhJNR1leJe7/mO0n2GcETHqNiDs3OMTUnc2uvWoHquZH+HC1z7rB23Q==
   dependencies:
     "@spotify/eslint-config-base" "^13.0.1"
     "@spotify/eslint-config-react" "^13.0.1"
     "@spotify/eslint-config-typescript" "^13.0.1"
-    "@spotify/eslint-plugin" "^14.1.0"
-    "@spotify/web-scripts-utils" "^13.0.1"
+    "@spotify/eslint-plugin" "^14.1.6"
+    "@spotify/web-scripts-utils" "^14.1.6"
     "@typescript-eslint/eslint-plugin" "^5.13.0"
     "@typescript-eslint/parser" "^5.13.0"
     eslint-config-prettier "^8.1.0"
-    eslint-plugin-jest "^26.1.1"
+    eslint-plugin-jest "^27.1.6"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-react "^7.29.2"
     eslint-plugin-react-hooks "^4.2.0"
 
-"@spotify/eslint-plugin@^14.1.0":
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/@spotify/eslint-plugin/-/eslint-plugin-14.1.0.tgz#fa9d3c57767ce1b6a34f64b1c2ee76f3a2501a4d"
-  integrity sha512-IyydZTn+nKurF/cq6jCs0niWFRJ1z/dd2rPda5VMmM2FRduoZW/JP+VzpTHKlQjj6nRU0l34KQZNjE/NJ8IyhQ==
+"@spotify/eslint-plugin@^14.1.6":
+  version "14.1.6"
+  resolved "https://registry.yarnpkg.com/@spotify/eslint-plugin/-/eslint-plugin-14.1.6.tgz#55ca0ab60bfc368b7d626a52877e7c09ecb70e5b"
+  integrity sha512-zJfoCXmrUCFStGAmJiQldzgLuEQx2NJnvdqsTz7uzt0OUqwnJ5+qrQSL8xP7EeRBJpCrfa7BvRXcVym4AuYnww==
 
-"@spotify/web-scripts-utils@^13.0.1":
-  version "13.0.1"
-  resolved "https://registry.yarnpkg.com/@spotify/web-scripts-utils/-/web-scripts-utils-13.0.1.tgz#73c944c84befc0fb0b1ccd414bb3f126100b0852"
-  integrity sha512-goL6BjMmFfsnFrxEYpZGU6qB4gRDpkK3H8+3av4AbLbbCgMJd652jCpnF93DY5dDeggK39uZv/FCjIKKIVA5Tg==
+"@spotify/web-scripts-utils@^14.1.6":
+  version "14.1.6"
+  resolved "https://registry.yarnpkg.com/@spotify/web-scripts-utils/-/web-scripts-utils-14.1.6.tgz#2a80b140b11ef2dbef48dbb4cf1da1d54b7f9f53"
+  integrity sha512-My8rYrrwjN8KexthgMAEPmz60vjtQ7YagBMoxxeg9oqFsnODyLHA0X5ppc8L1E1cpS8CCc2HmvyKzijRJKkfcg==
   dependencies:
-    glob "^7.1.4"
+    glob "^8.0.3"
     read-pkg-up "^7.0.1"
 
 "@tsconfig/node10@^1.0.7":
@@ -1069,6 +1069,13 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+brace-expansion@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-2.0.1.tgz#1edc459e0f0c548486ecf9fc99f2221364b9a0ae"
+  integrity sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==
+  dependencies:
+    balanced-match "^1.0.0"
 
 braces@^3.0.2:
   version "3.0.2"
@@ -1621,10 +1628,10 @@ eslint-config-prettier@^8.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz#5a81680ec934beca02c7b1a61cf8ca34b66feab1"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-plugin-jest@^26.1.1:
-  version "26.8.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-26.8.4.tgz#d9a894af697831ad551f7e01247e4dfbd8c689bd"
-  integrity sha512-+waIVSv2742wq7Y06jXikzRL5/wG+dDccmMnsLHjjwPDeccwbVQ7xpFoPCbd0k8qed/N2LSajjmBsw3D1C/xAQ==
+eslint-plugin-jest@^27.1.6:
+  version "27.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.6.0.tgz#e5c0cf735b3c8cad0ef9db5b565b2fc99f5e55ed"
+  integrity sha512-MTlusnnDMChbElsszJvrwD1dN3x6nZl//s4JD23BxB6MgR66TZlL064su24xEIS3VACfAoHV1vgyMgPw8nkdng==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
@@ -2041,7 +2048,7 @@ glob-parent@^6.0.2:
   dependencies:
     is-glob "^4.0.3"
 
-glob@^7.1.3, glob@^7.1.4:
+glob@^7.1.3:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
@@ -2052,6 +2059,17 @@ glob@^7.1.3, glob@^7.1.4:
     minimatch "^3.1.1"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+glob@^8.0.3:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-8.1.0.tgz#d388f656593ef708ee3e34640fdfb99a9fd1c33e"
+  integrity sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^5.0.1"
+    once "^1.3.0"
 
 global-dirs@^0.1.1:
   version "0.1.1"
@@ -2654,6 +2672,13 @@ minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
   integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
+
+minimatch@^5.0.1:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-5.1.6.tgz#1cfcb8cf5522ea69952cd2af95ae09477f122a96"
+  integrity sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==
+  dependencies:
+    brace-expansion "^2.0.1"
 
 minimist-options@4.1.0:
   version "4.1.0"
