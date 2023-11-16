@@ -37,7 +37,7 @@
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "sort-package-json": "2.1.0",
-    "typescript": "4.7.4",
+    "typescript": "4.9.5",
     "vite": "3.2.3"
   }
 }
