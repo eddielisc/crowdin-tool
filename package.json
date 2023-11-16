@@ -24,7 +24,7 @@
     "@commitlint/cli": "17.2.0",
     "@commitlint/config-conventional": "17.2.0",
     "@spotify/eslint-config": "14.1.0",
-    "@types/flat": "5.0.2",
+    "@types/flat": "5.0.5",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "@types/styled-components": "5.1.30",
