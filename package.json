@@ -16,8 +16,8 @@
   "dependencies": {
     "@crowdin/ota-client": "0.7.0",
     "flat": "5.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "styled-components": "5.3.11"
   },
   "devDependencies": {
@@ -25,14 +25,14 @@
     "@commitlint/config-conventional": "17.2.0",
     "@spotify/eslint-config": "14.1.0",
     "@types/flat": "5.0.2",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.1",
     "@types/styled-components": "5.1.30",
     "@vitejs/plugin-react": "2.2.0",
     "eslint": "8.27.0",
     "eslint-plugin-jsx-a11y": "6.6.1",
     "eslint-plugin-react": "7.31.10",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "4.6.2",
     "husky": "8.0.3",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
